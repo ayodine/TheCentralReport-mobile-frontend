@@ -1,0 +1,53 @@
+# ==============================================================================
+# The Central Report — Mobile PWA (m.thecentralreport.com)
+# Hostinger Apache / LiteSpeed Configuration
+# ==============================================================================
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ── 1. Desktop Redirect ──────────────────────────────────────────────────────
+  # If a desktop user visits m. directly, route them to main desktop domain
+  RewriteCond %{HTTP_USER_AGENT} !(android|bb\d+|meego|mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge\ |maemo|midp|mmp|netfront|opera\ m(ob|in)i|palm(\ os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows\ ce|xda|xiino) [NC]
+  RewriteCond %{HTTP_COOKIE} !prefer_mobile=1
+  RewriteRule ^(.*)$ https://thecentralreport.com/$1 [R=302,L]
+
+  # ── 2. Trailing Slash Normalization ──────────────────────────────────────────
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_URI} !(.*)/$
+  RewriteRule ^(.*)$ $1/ [L,R=301]
+
+  # ── 3. Dynamic Article SPA Fallback ──────────────────────────────────────────
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^article/([^/]+)/?$ /article/_fallback/index.html [L]
+
+  # ── 4. Dynamic Category SPA Fallback ─────────────────────────────────────────
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^category/([^/]+)/?$ /category/_fallback/index.html [L]
+
+  # ── 5. Directory Index ───────────────────────────────────────────────────────
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteCond %{REQUEST_FILENAME}/index.html -f
+  RewriteRule ^(.*)$ $1/index.html [L]
+</IfModule>
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
