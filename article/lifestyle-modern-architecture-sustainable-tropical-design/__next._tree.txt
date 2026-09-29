@@ -1,5 +1,5 @@
 :HL["/_next/static/chunks/33zl30juxw5cg.css","style"]
-:HL["/_next/static/chunks/1kmtxwlyw2j4-.css","style"]
+:HL["/_next/static/chunks/2di6te3djsw1l.css","style"]
 :HL["/_next/static/media/248e1dc0efc99276-s.p.1d6sb5kuiz5lw.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/614a0f7b5f50b2dc-s.p.31liq74fp3j5t.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -8,5 +8,5 @@
 :HL["/_next/static/media/Proxima%20Nova%20Condensed%20Extrabold-s.p.1n-n6mj1hy1qi.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/Proxima%20Nova%20Condensed%20Regular-s.p.3k8vgw8ixiznf.otf","font",{"crossOrigin":"","type":"font/otf"}]
 :HL["/_next/static/media/Proxima%20Nova%20Condensed%20Semibold-s.p.3n5-4aaga-_2o.otf","font",{"crossOrigin":"","type":"font/otf"}]
-:HL["https://fonts.googleapis.com/css2?family=Faustina:ital,wght@0,300..800;1,300..800&display=swap","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(site)","param":null,"prefetchHints":0,"slots":{"children":{"name":"article","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"lifestyle-modern-architecture-sustainable-tropical-design","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"gGUU2OM4SOIJ56lj7hs4w"}
+:HL["https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(site)","param":null,"prefetchHints":0,"slots":{"children":{"name":"article","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"lifestyle-modern-architecture-sustainable-tropical-design","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"3Kz8WD7_fwKBzxDzetoyL"}
