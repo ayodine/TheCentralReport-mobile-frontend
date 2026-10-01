@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/33zl30juxw5cg.css","style"]
-:HL["/_next/static/chunks/2a7rutob2rxud.css","style"]
+:HL["/_next/static/chunks/3c3lgsu2yfctv.css","style"]
+:HL["/_next/static/chunks/0s5z9t0q92_nx.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"m953cqnTn_f8QBmFAeJu0"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"/_not-found","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"5opqqQprK57c7MSMFto43"}
