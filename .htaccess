@@ -7,6 +7,11 @@
   RewriteEngine On
   RewriteBase /
 
+  # ── 0. Force HTTPS ───────────────────────────────────────────────────────────
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
   # ── 1. Desktop Redirect ──────────────────────────────────────────────────────
   # If a desktop user visits m. directly, route them to main desktop domain
   RewriteCond %{HTTP_USER_AGENT} !(android|bb\d+|meego|mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge\ |maemo|midp|mmp|netfront|opera\ m(ob|in)i|palm(\ os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows\ ce|xda|xiino) [NC]
