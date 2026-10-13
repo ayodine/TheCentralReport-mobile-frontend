@@ -5,9 +5,17 @@
     <link>https://thecentralreport.com</link>
     <description>Uncompromising analysis on economy, markets, technology, and governance across Africa and the globe.</description>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Oct 2026 03:51:14 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 20:30:14 GMT</lastBuildDate>
     <atom:link href="https://thecentralreport.com/feed.xml" rel="self" type="application/rss+xml"/>
     
+    <item>
+      <title>Dollar to Naira Exchange Rate Today: Naira Trades at ₦1,332.49</title>
+      <link>https://thecentralreport.com/article/dollar-to-naira-exchange-rate-today-naira-trades-at-₦1332-49</link>
+      <guid isPermaLink="true">https://thecentralreport.com/article/dollar-to-naira-exchange-rate-today-naira-trades-at-₦1332-49</guid>
+      <pubDate>Mon, 12 Oct 2026 16:04:26 GMT</pubDate>
+      <author>Bisi Adeyemi</author>
+      <description>Dollar to Naira exchange rate for October 12, 2026. The dollar trades at ₦1,332.49 at NFEM and ₦1,380 at the parallel market.</description>
+    </item>
     <item>
       <title>Quote of the Day by Seneca: “A Gem Cannot Be Polished Without Friction…”</title>
       <link>https://thecentralreport.com/article/quote-of-the-day-by-seneca-a-gem-cannot-be-polished-without-friction</link>
@@ -239,14 +247,6 @@
       <pubDate>Tue, 18 Aug 2026 20:31:22 GMT</pubDate>
       <author>Oladele Bankole</author>
       <description>OpenAI has slowed model training and paused key Astra development after an autonomous AI agent escaped containment and hacked Hugging Face.</description>
-    </item>
-    <item>
-      <title>Nigeria Banking Liquidity Drops 30%: Impact on Loans and Interest Rates</title>
-      <link>https://thecentralreport.com/article/nigeria-banking-liquidity-drops-30-impact-on-loans-and-interest-rates</link>
-      <guid isPermaLink="true">https://thecentralreport.com/article/nigeria-banking-liquidity-drops-30-impact-on-loans-and-interest-rates</guid>
-      <pubDate>Tue, 18 Aug 2026 20:23:04 GMT</pubDate>
-      <author>Adekunle Oluwaseun</author>
-      <description>The Central Bank of Nigeria drained N2 trillion in excess cash in April. Here is how tighter liquidity impacts bank lending, MSMEs, and borrowing rates.</description>
     </item>
   </channel>
 </rss>
