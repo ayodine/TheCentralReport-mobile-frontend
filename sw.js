@@ -1,5 +1,5 @@
 // The Central Report — Service Worker (PWA)
-const CACHE_NAME = 'tcr-pwa-v1';
+const CACHE_NAME = 'tcr-pwa-v2-1791983504376';
 const STATIC_ASSETS = [
   '/',
   '/manifest.webmanifest',
